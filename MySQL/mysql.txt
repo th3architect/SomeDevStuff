@@ -1,0 +1,5 @@
+# Connect to MySQL server
+mysql --host=SomeHost --user=SomeUser --password=SomePassword
+
+# Show all users with hosts
+select user, host from mysql.user;
