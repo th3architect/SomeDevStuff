@@ -1,0 +1,3 @@
+# Secure Copy
+# Copy all files from SomeDirectory to SomeOtherDirectory on remote host
+scp -r ~/SomeDirectory/* username@host:/SomeOtherDirectory
