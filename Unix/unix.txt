@@ -1,3 +1,13 @@
-# Secure Copy
+## Jobs
+# View jobs
+jobs
+# Resume job 1
+fg %1 
+
+## Secure Copy
 # Copy all files from SomeDirectory to SomeOtherDirectory on remote host
 scp -r ~/SomeDirectory/* username@host:/SomeOtherDirectory
+
+## vim
+# Undo: u
+# Redo: Ctrl+R
