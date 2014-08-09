@@ -1,9 +1,21 @@
-## virtualenvwrapper
+## Setup environment
+
+# Install pip globally
+sudo easy_install pip
+
+# Install virtualenv
+pip install virtualenv
 
 # Install virtualenvwrapper
 pip install virtualenvwrapper
-export WORKON_HOME=~/dev/Envs
-source /usr/local/bin/virtualenvwrapper.sh
+
+# Add to .bash_profile
+echo '' >> ~/.bash_profile && echo '# virtualenvwrapper' >> ~/.bash_profile && echo 'export WORKON_HOME=~/dev/Envs' >> ~/.bash_profile && echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bash_profile
+# (restart shell)
+
+#########################################################################################################
+
+## virtualenvwrapper
 
 # Create virtual env
 mkvirtualenv venv
