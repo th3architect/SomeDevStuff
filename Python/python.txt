@@ -15,6 +15,16 @@ echo '' >> ~/.bash_profile && echo '# virtualenvwrapper' >> ~/.bash_profile && e
 
 #########################################################################################################
 
+## pip
+
+# Install packages from requirements.txt
+pip install -r /path/to/requirements.txt
+
+# Generate requirements.txt
+pip freeze > requirements.txt
+
+#########################################################################################################
+
 ## virtualenvwrapper
 
 # Create virtual env
