@@ -1,0 +1,12 @@
+## Setup environment
+
+# Install bower
+sudo npm install -g bower
+
+# Install bootstrap
+bower install boostrap
+
+# Install AngularJS
+bower install angular
+
+#########################################################################################################
