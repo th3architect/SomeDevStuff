@@ -1,2 +1,11 @@
 # Start server
 python manage.py runserver 0.0.0.0:3000
+
+# Create project
+django-admin startproject mysite
+
+# Make migrations (from changes made to models)
+python manage.py makemigrations
+
+# Run migrations
+python manage.py migrate
