@@ -15,6 +15,9 @@ pip install virtualenvwrapper
 # Add to .bash_profile
 echo '' >> ~/.bash_profile && echo '# virtualenvwrapper' >> ~/.bash_profile && echo 'export WORKON_HOME=~/dev/Envs' >> ~/.bash_profile && echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bash_profile
 
+# Source changes
+source ~/.bash_profile
+
 #########################################################################################################
 
 ## pip

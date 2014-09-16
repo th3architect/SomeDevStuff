@@ -1,3 +1,7 @@
+## iptables
+# Allow incoming traffic on designated port
+sudo iptables -A INPUT -p tcp --dport 3000 -j ACCEPT
+
 ## Jobs
 # View jobs
 jobs
