@@ -10,3 +10,6 @@ bower install boostrap
 bower install angular
 
 #########################################################################################################
+
+## angucomplete
+bower install git://github.com/darylrowland/angucomplete --save
