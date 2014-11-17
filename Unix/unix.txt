@@ -15,3 +15,13 @@ scp -r ~/SomeDirectory/* username@host:/SomeOtherDirectory
 ## vim
 # Undo: u
 # Redo: Ctrl+R
+
+## lsfo (List open files)
+# View process using tcp port
+lsof -i tcp:5000
+
+## Process management
+# List processes
+top
+# Kill process
+kill process_number
